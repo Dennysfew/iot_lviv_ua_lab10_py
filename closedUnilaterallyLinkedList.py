@@ -75,7 +75,7 @@ class ClosedUnidirectionalLinkedList:
                     elif k > index:
                         print("List index out of range")
 
-    # output information about device, which have same limit of measurement
+    # output information about person
     def find_a_person_with_surname(self, specific_surname: int):
         current: Node = self.head
         if self.head.data is None:
